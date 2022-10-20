@@ -37,9 +37,10 @@ int BinarySearch(int arr[], int x, int size) // Binary Function Implementation t
 
 int main()
 {
-    int x;                                                     // this is number you want to find in the
-    cin >> x;                                                  // take number form user
-    int arr[] = {1, 2, 3, 4, 5, 6, 7, 23};                     // array
-    cout << "In array Index at : " << BinarySearch(arr, x, 8); // call binaryFunction 8 is size of array
+    int x;    // this is number you want to find in the
+    cin >> x; // take number form user
+    int arr[] = {1, 2, 3, 4, 5, 6, 7, 23};
+    int size = 8;                                                 // array
+    cout << "In array Index at : " << BinarySearch(arr, x, size); // call binaryFunction 8 is size of array
     return 0;
 }
